@@ -4,13 +4,16 @@
   "description": "JS stack from scratch tutorial",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "gulp"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
   },
   "author": "FMA",
   "license": "MIT",
-  "dependencies": {
-    "color": "^0.11.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-preset-latest": "^6.16.0",
     "del": "^2.2.2",
