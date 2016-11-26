@@ -1,0 +1,11 @@
+{
+  "name": "jsstack",
+  "version": "0.0.1",
+  "description": "JS stack from scratch tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "FMA",
+  "license": "MIT"
+}
