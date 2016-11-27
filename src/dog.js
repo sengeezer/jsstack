@@ -7,4 +7,3 @@ export default class {
     return `Hello what is up, I am ${this.name}`;
   }
 }
-  
