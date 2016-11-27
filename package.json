@@ -15,12 +15,18 @@
     "extends": "airbnb",
     "plugins": [
       "import"
-    ]
+    ],
+    "env": {
+      "browser": true
+    }
   },
   "author": "FMA",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "babel-polyfill": "^6.16.0"
+  },
   "devDependencies": {
+    "babel-loader": "^6.2.8",
     "babel-preset-latest": "^6.16.0",
     "del": "^2.2.2",
     "eslint": "^3.11.0",
@@ -30,6 +36,7 @@
     "eslint-plugin-react": "^6.7.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "gulp-eslint": "^3.0.1"
+    "gulp-eslint": "^3.0.1",
+    "webpack-stream": "^3.2.0"
   }
 }
